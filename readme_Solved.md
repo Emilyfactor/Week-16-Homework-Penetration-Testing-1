@@ -73,6 +73,7 @@ Your client has asked that you help identify any vulnerabilities with their file
 
 # Bonus 
   -In the same command, output the results into a new text file named zenmapscan.txt.
+
 nmap -T4 -A -oN zenmapscan.txt 192.168.0.10
 
 ![image](https://user-images.githubusercontent.com/96030770/164375190-c1b7e7cd-e848-4e67-97cb-713f5738ae7d.png)
