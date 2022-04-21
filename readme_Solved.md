@@ -7,7 +7,7 @@
 
 ![image](https://user-images.githubusercontent.com/96030770/164365649-bc8f334b-f783-43a0-8219-f092ddab7690.png)
 
-- How can this information be helpful to an attacker? Having access to all the executive & manager names allows the attacker to  to send phishing emails directly to any member of Altoro Mutual.
+- How can this information be helpful to an attacker? Having access to all the executive & manager names allows the attacker to send phishing emails directly to any member of Altoro Mutual.
 
 #### Step 2: DNS and Domain Discovery
 
@@ -69,12 +69,18 @@ Your client has asked that you help identify any vulnerabilities with their file
 
 - Command for Zenmap to run a service scan against the Metasploitable machine: 
  
-- Bonus command to output results into a new text file named `zenmapscan.txt`:
+![image](https://user-images.githubusercontent.com/96030770/164372545-a0a392f0-4af2-4d55-b52d-0549c40b59ad.png)
 
 - Zenmap vulnerability script command: 
 
+![image](https://user-images.githubusercontent.com/96030770/164373703-1b754c32-87e5-4568-9ef2-27432d9ead30.png)
+
 - Once you have identified this vulnerability, answer the following questions for your client:
-  1. What is the vulnerability:
+  1. What is the vulnerability? Zenmap is able to enumerate the vulnerable serive ports: 
+
+![image](https://user-images.githubusercontent.com/96030770/164373752-2508e548-0df0-473a-b1d5-34b86e64a241.png)
+
+![image](https://user-images.githubusercontent.com/96030770/164373923-b9249a42-0ebb-45c3-96b2-6e9d61960b5d.png)
 
   2. Why is it dangerous:
 
