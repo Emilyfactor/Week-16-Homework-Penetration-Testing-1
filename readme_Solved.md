@@ -8,6 +8,7 @@
 - How can this information be helpful to an attacker:
 
 
+
 #### Step 2: DNS and Domain Discovery
 
 Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the following questions based on the results:
