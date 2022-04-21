@@ -71,6 +71,13 @@ Your client has asked that you help identify any vulnerabilities with their file
  
 ![image](https://user-images.githubusercontent.com/96030770/164372545-a0a392f0-4af2-4d55-b52d-0549c40b59ad.png)
 
+# Bonus 
+  -In the same command, output the results into a new text file named zenmapscan.txt.
+nmap -T4 -A -oN zenmapscan.txt 192.168.0.10
+
+![image](https://user-images.githubusercontent.com/96030770/164375190-c1b7e7cd-e848-4e67-97cb-713f5738ae7d.png)
+
+
 - Zenmap vulnerability script command: 
 
 ![image](https://user-images.githubusercontent.com/96030770/164373703-1b754c32-87e5-4568-9ef2-27432d9ead30.png)
@@ -80,11 +87,13 @@ Your client has asked that you help identify any vulnerabilities with their file
 
 ![image](https://user-images.githubusercontent.com/96030770/164373752-2508e548-0df0-473a-b1d5-34b86e64a241.png)
 
-![image](https://user-images.githubusercontent.com/96030770/164373923-b9249a42-0ebb-45c3-96b2-6e9d61960b5d.png)
+![image](https://user-images.githubusercontent.com/96030770/164374151-0760994f-f192-450d-b659-251d3ebc3b93.png)
 
-  2. Why is it dangerous:
+![image](https://user-images.githubusercontent.com/96030770/164374184-a27a824d-95ae-4189-9390-4fd94ba73646.png)
 
-  3. What mitigation strategies can you recommendations for the client to protect their server:
+  2. Why is it dangerous? It allows the hacker to load a backdoor attack using VSFTPD 2.3.4. This attack will trigger the malicious code by sending a sequence of specific bytes on port 21, if successful, will result in opening the backdoor on port 6200 of the system and running as root. 
+
+  3. What mitigation strategies can you recommendations for the client to protect their server? After being reported, patches were released by Microsoft (MS17--10) and Red Had for Linux (RHSA-2017:1390 5,6,& 7). The vsFPTD 2.3.4 patch was released on July 3, 2011 followed by Red Had's version these patches are constantly monitered and updated. Another recommendation is to run file audits on your system to determine all files and records are in a good state. This is used to detect changes to the system that may have been authorized. Intrusion detection (IDS) is a software that monitors a system or network for unauthorized activity.  
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
