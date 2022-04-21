@@ -34,13 +34,34 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 
 - What open ports and running services did Shodan find:
 
+![image](https://user-images.githubusercontent.com/96030770/164367307-20ef55f3-dcdb-457e-86d8-3fa49b73e453.png)
+
 #### Step 4: Recon-ng
 
+![image](https://user-images.githubusercontent.com/96030770/164369621-e35afdcd-7369-45a1-ba7c-8dd0f7f9d5c2.png)
+
 - Install the Recon module `xssed`. 
-- Set the source to `demo.testfire.net`. 
+
+![image](https://user-images.githubusercontent.com/96030770/164369685-2d750f17-3bf8-4fef-a0fb-bbd8de1b5219.png)
+
+![image](https://user-images.githubusercontent.com/96030770/164369727-4e4fb1fa-6ca2-480c-ae02-3168d70cf9d8.png)
+
+![image](https://user-images.githubusercontent.com/96030770/164369845-41d09037-32a3-47b4-8323-9a30001ac314.png)
+
+- Set the source to `demo.testfire.net`.
+
+![image](https://user-images.githubusercontent.com/96030770/164369897-72f1f152-1a60-40f5-ad2a-328aa36794dd.png)
+
+![image](https://user-images.githubusercontent.com/96030770/164369982-fe9e67c7-35d5-40c2-823d-930f084b6cf4.png)
+
 - Run the module. 
 
-Is Altoro Mutual vulnerable to XSS: 
+![image](https://user-images.githubusercontent.com/96030770/164370450-1696f35e-7ff5-4968-8a04-cc5e3083666a.png)
+
+Is Altoro Mutual vulnerable to XSS? Yes
+
+![image](https://user-images.githubusercontent.com/96030770/164370390-91e5401a-e590-4c40-a386-c3a59ab71630.png)
+
 
 ### Step 5: Zenmap
 
